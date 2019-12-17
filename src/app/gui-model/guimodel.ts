@@ -7,7 +7,7 @@ export class GuiModel {
     // @ts-ignore
     private _guiModel = {
         "application": {
-            "title": "derviner's Friend Tracker",
+            "title": "nermins's Friend Tracker",
             "formList": [
                 {
                     "id": "FriendForm",
@@ -145,6 +145,20 @@ export class GuiModel {
                             "name": "Name",
                             "width": 2,
                             "required": true
+                        },
+                        {
+                            "id": "date",
+                            "type": "date",
+                            "name": "Date",
+                            "width": 2
+                        },
+                        {
+                            "id": "comment",
+                            "type": "text",
+                            "name": "Comments",
+                            "width": 2,
+                            "height": 4,
+                            "maxLength": 5000,
                         },
                         {
                             "type": "deleteButton",
